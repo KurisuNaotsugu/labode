@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "labode"
+version = "0.1.0"
+description = ""
+authors = ["Kurisu Naotsugu <kurikurikurusu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.3"
+altair = "^5.5.0"
+plotly = "^6.3.1"
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.38.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
